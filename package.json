@@ -1,0 +1,24 @@
+{
+  "name": "kairos-playwright-automation-framework",
+  "version": "1.0.0",
+  "description": "Basic automation using Playwright for test cases within kairos-testing-protfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renatabriajraj/kairos-playwright-automation-framework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/renatabriajraj/kairos-playwright-automation-framework/issues"
+  },
+  "homepage": "https://github.com/renatabriajraj/kairos-playwright-automation-framework#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2"
+  }
+}
