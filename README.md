@@ -1,9 +1,6 @@
-# kairos-playwright-automation-framework
-Perfect. This README must:
-
 # Kairos – Playwright Automation Framework
 
-## Overview
+# Overview
 
 This repository demonstrates UI automation testing using **Playwright with TypeScript**, structured according to industry best practices.
 
@@ -25,7 +22,7 @@ Kairos is an AI coaching platform that:
 * Enables continuous improvement cycles
 This automation framework focuses on validating core user-facing workflows.
 
-## Framework Architecture
+# Framework Architecture
 The project follows the **Page Object Model (POM)** design pattern to ensure:
 * Reusability
 * Maintainability
@@ -33,7 +30,7 @@ The project follows the **Page Object Model (POM)** design pattern to ensure:
 * Reduced duplication
 * Scalable automation structure
 
-### Folder Structure
+# Folder Structure
 
 kairos-playwright-automation-framework/
 │
@@ -44,7 +41,7 @@ kairos-playwright-automation-framework/
 ├── test-results/           # Execution output
 └── playwright-report/      # HTML test reports
 
-## Automated Test Coverage
+# Automated Test Coverage
 The following test cases are automated based on manual functional test design:
 
 | Test Case ID | Description                                   |
@@ -62,8 +59,7 @@ These test cases represent:
 * Navigation integrity
 * Error handling
 
-## Design Principles Applied
-
+# Design Principles Applied
 This framework demonstrates:
 * Use of Playwright Test Runner
 * Page Object Model implementation
@@ -73,7 +69,7 @@ This framework demonstrates:
 * Reusable action methods
 * Clean test structure for scalability
 
-## Testing Approach
+# Testing Approach
 This repository is not intended to validate a production deployment of Kairos, but rather to demonstrate:
 * Practical application of functional test automation
 * Alignment between manual test cases and automated scripts
@@ -81,15 +77,16 @@ This repository is not intended to validate a production deployment of Kairos, b
 * Industry-standard automation architecture
 The automation layer is structured to be adaptable to a live environment with minimal configuration changes.
 
-## Related Repository
+# Related Repository
 
 Manual test design, system testing, and defect reporting are documented in:
 
 `kairos-software-testing-portfolio`
 
 
-## Author
-
-**Renata Briajraj**
+# Author
+## **Renata Briajraj**
+ISTQB CTFL Certified
+Aspiring Software Tester | Quality Advocate
 ISTQB CTFL Certified
 Aspiring Software Tester | Quality Advocate
