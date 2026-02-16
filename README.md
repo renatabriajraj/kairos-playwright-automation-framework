@@ -1,10 +1,7 @@
 # Kairos – Playwright Automation Framework
 
 # Overview
-
-This repository demonstrates UI automation testing using **Playwright with TypeScript**, structured according to industry best practices.
-
-It complements the manual testing portfolio by showcasing automated validation of core functional workflows within the Kairos AI-driven coaching platform.
+This repository demonstrates UI automation testing using **Playwright with TypeScript**, structured according to industry best practices. It complements the manual testing portfolio by showcasing automated validation of core functional workflows within the Kairos AI-driven coaching platform.
 
 This project focuses on:
 * Automation framework design
@@ -31,7 +28,6 @@ The project follows the **Page Object Model (POM)** design pattern to ensure:
 * Scalable automation structure
 
 # Folder Structure
-
 kairos-playwright-automation-framework/
 │
 ├── tests/                  # Test specifications (.spec.ts files)
@@ -77,8 +73,17 @@ This repository is not intended to validate a production deployment of Kairos, b
 * Industry-standard automation architecture
 The automation layer is structured to be adaptable to a live environment with minimal configuration changes.
 
-# Related Repository
+# How to Run Tests
+1. Install dependencies:
+npm install
+2. Install browsers:
+npx playwright install
+3. Run tests:
+npx playwright test
+4. Run with HTML report:
+npx playwright test --reporter=html
 
+# Related Repository
 Manual test design, system testing, and defect reporting are documented in:
 
 `kairos-software-testing-portfolio`
