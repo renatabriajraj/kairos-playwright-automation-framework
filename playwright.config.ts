@@ -4,7 +4,7 @@ export default defineConfig({
   testDir: './tests',
   timeout: 30000,
   use: {
-    baseURL: 'https://your-site-url.com',
+    baseURL: 'https://kairos-hackathon2025.lovable.app/',
     headless: true,
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
