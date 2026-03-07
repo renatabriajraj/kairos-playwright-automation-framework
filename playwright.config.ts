@@ -5,7 +5,7 @@ export default defineConfig({
   timeout: 30000,
   use: {
     headless: false,
-    baseURL: 'https://example.com',
+    baseURL: 'https://kairos-hackathon2025.lovable.app/',
     screenshot: 'only-on-failure',
   },
 });
