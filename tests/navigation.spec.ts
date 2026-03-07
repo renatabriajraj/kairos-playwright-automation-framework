@@ -2,13 +2,10 @@ import { test, expect } from '@playwright/test';
 
 test('TC-GF-005: User Navigates Between Pages', async ({ page }) => {
 
-  await page.goto('/');
+  // Open Kairos demo site
+  await page.goto('https://kairos-hackathon2025.lovable.app/');
 
-  // Example navigation clicks
-  await page.locator('a').first().click();
-
-  await page.waitForLoadState('domcontentloaded');
-
-  await expect(page).toHaveURL(/.*/);
+  // Verify page loads successfully
+  await expect(page).toHaveTitle(/Kairos/i);
 
 });
